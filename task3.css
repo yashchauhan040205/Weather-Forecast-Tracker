@@ -1,0 +1,69 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        
+    }
+    
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa98qCX7Kl2geP73d0TJE4-f-TyfaD-mlxxQ&s');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.add-city, .weather-summary, .filters {
+    margin-bottom: 30px;
+}
+
+.add-city input, .add-city select, .add-city button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+   
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.filters button {
+    margin: 5px;
+    background-color: #28a745;
+}
+
+.filters button:hover {
+    background-color: #218838;
+}

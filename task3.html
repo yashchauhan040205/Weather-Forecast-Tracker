@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Tracker</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body >
+    
+    <div class="container">
+        
+        <h1>Weather Forecast Tracker</h1>
+
+   
+        <div class="add-city">
+            <h2>Add City Weather</h2>
+            <input type="text" id="cityName" placeholder="City Name">
+            <input type="number" id="temperature" placeholder="Temperature (°C)">
+            <select id="condition">
+                <option value="Sunny">Sunny</option>
+                <option value="Cloudy">Cloudy</option>
+                <option value="Rainy">Rainy</option>
+            </select>
+            <button onclick="addCityWeather()">Add City</button>
+           
+        </div>
+
+    
+        <div class="weather-summary">
+            <h2>Weather Summary</h2>
+            <ul id="weather-list">
+            
+            </ul>
+        </div>
+
+  
+        <div class="filters">
+            <h2>Filters</h2>
+            <button onclick="filterByCondition('Sunny')">Show Sunny Cities</button>
+            <button onclick="filterByCondition('Cloudy')">Show Cloudy Cities</button>
+            <button onclick="filterByCondition('Rainy')">Show Rainy Cities</button>
+            <button onclick="findHottestCity()">Find Hottest City</button>
+        </div>
+    </div>
+
+    <script src="task3.js"></script>
+</body>
+</html>
